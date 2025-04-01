@@ -1,0 +1,25 @@
+{
+  "name": "02_express",
+  "version": "1.0.0",
+  "description": "a practice for design a server",
+  "keywords": [
+    "express",
+    "nodemon"
+  ],
+  "license": "ISC",
+  "author": "Rajesh",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
